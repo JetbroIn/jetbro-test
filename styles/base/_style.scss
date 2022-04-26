@@ -1,0 +1,40 @@
+html,
+body {
+  overscroll-behavior: none;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+a,
+.a {
+  cursor: pointer;
+  text-decoration: none;
+  // text-underline-position: under;
+  @include standard-easing();
+}
+.white {
+  color: var(--color-white);
+}
+.text-color {
+  color: var(--color-text);
+}
+.cream-color{
+  color: var(--color-cream);
+}
+.text-center {
+  text-align: center;
+}
+.border-100 {
+  border-radius: 100%;
+}
+.underline {
+  text-decoration: underline;
+}
+.font-italics {
+  font-style: italic;
+}
+.mob-text-initial {
+  @include mob {
+    text-align: initial;
+  }
+}
